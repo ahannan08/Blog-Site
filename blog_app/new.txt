@@ -1,0 +1,17 @@
+
+/users/register
+/users/login
+
+//post :-
+
+getAllPost           GET  /posts
+getspecific users -  GET   /posts/id
+create new post -     POST  /posts
+update - /post/id  -  PUT  /post/:id
+delete - /post/id   -  DELETE /post/:id
+
+comments:-
+
+getallcomments        - GET .posts/:postId/comments
+createcomment  - POST /post/:postid/comments
+updatecomment -  put /post/:postid/comments/:id
